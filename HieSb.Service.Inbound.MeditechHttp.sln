@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HieSb.Service.Inbound.MeditechHttp.Logic", "HieSb.Service.Inbound.MeditechHttp.Logic\HieSb.Service.Inbound.MeditechHttp.Logic.csproj", "{8909FADA-2880-47B3-873B-5455524582DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HieSb.Service.Inbound.MeditechHttp.ServiceHost", "HieSb.Service.Inbound.MeditechHttp.ServiceHost\HieSb.Service.Inbound.MeditechHttp.ServiceHost.csproj", "{AAC185D2-3EC3-40D4-9BC6-DE3842AE6660}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{51166C9F-5D64-441A-9B07-9E566694961F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HieSb.Service.Inbound.MeditechHttp.Tests", "WcfServiceLibrary1\HieSb.Service.Inbound.MeditechHttp.Tests.csproj", "{83FC6C00-55D8-4211-BE34-9376C42FAC69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E883564-6617-4AE4-8592-0A272D541051}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SonarQube", "SonarQube", "{4C17D999-1488-473F-B858-32A9FBAFC158}"
+	ProjectSection(SolutionItems) = preProject
+		SonarQube\_BaseRuleSetCSharp.ruleset = SonarQube\_BaseRuleSetCSharp.ruleset
+		SonarQube\SolutionBinding.sqconfig = SonarQube\SolutionBinding.sqconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8909FADA-2880-47B3-873B-5455524582DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8909FADA-2880-47B3-873B-5455524582DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8909FADA-2880-47B3-873B-5455524582DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8909FADA-2880-47B3-873B-5455524582DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC185D2-3EC3-40D4-9BC6-DE3842AE6660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC185D2-3EC3-40D4-9BC6-DE3842AE6660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC185D2-3EC3-40D4-9BC6-DE3842AE6660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC185D2-3EC3-40D4-9BC6-DE3842AE6660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FC6C00-55D8-4211-BE34-9376C42FAC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FC6C00-55D8-4211-BE34-9376C42FAC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FC6C00-55D8-4211-BE34-9376C42FAC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FC6C00-55D8-4211-BE34-9376C42FAC69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8909FADA-2880-47B3-873B-5455524582DB} = {3E883564-6617-4AE4-8592-0A272D541051}
+		{AAC185D2-3EC3-40D4-9BC6-DE3842AE6660} = {3E883564-6617-4AE4-8592-0A272D541051}
+		{83FC6C00-55D8-4211-BE34-9376C42FAC69} = {51166C9F-5D64-441A-9B07-9E566694961F}
+	EndGlobalSection
+EndGlobal
