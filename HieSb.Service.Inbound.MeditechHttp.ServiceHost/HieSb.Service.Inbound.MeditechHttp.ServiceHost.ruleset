@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="SonarQube - HieSb.Service.Inbound.MeditechHttp Sonar way" ToolsVersion="14.0">
-  <Include Path="..\sonarqube\hiesb.service.inbound.meditechhttpcsharp.ruleset" Action="Default" />
-</RuleSet>
