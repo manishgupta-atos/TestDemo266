@@ -20,25 +20,7 @@ namespace HieSb.Service.Inbound.MeditechHttp.Tests
 
         /// <summary>
         /// FQDN of the machine running IBM MQ
-        /// </summary>
-        public static readonly string HostName = "xrdclqappmqs01b.unix.medcity.net";
-
-        /// <summary>
-        /// Port number of the machine running IBM MQ
-        /// </summary>
-        public static readonly int PortNumber = 1418;
-
-        /// <summary>
-        /// Name of the channel used to connect
-        /// </summary>
-        public static readonly string ChannelName = "HCA.DEVHIESB.SVRCONN";
-
-        /// <summary>
-        /// Name of the queue manager
-        /// </summary>
-        public static readonly string QueueManagerName = "DEV_HIE_SB_MGR";
-        #endregion
-
+       
         #region Public Static Methods
         /// <summary>
         /// Creates a new QueueConnection using the static properties
